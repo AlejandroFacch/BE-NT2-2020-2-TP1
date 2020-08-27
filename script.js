@@ -33,6 +33,7 @@ function addTodo() {
   lista.appendChild(nombre);
   list.appendChild(lista);
   revisar();
+  
 }
 
  
@@ -46,6 +47,6 @@ function revisar(){
     if(element.checked == true){
       pendiente--
     }
-  }  
+  }
     uncheckedCountSpan.innerHTML = pendiente;
 }
